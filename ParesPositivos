@@ -1,0 +1,12 @@
+// Solicita al usuario que ingrese un número
+const numero = parseInt(prompt("Ingresa un número positivo:"));
+
+// Verifica que el número sea positivo
+if (numero > 0) {
+  // Crea un bucle para generar los números pares
+  for (let i = 0; i < numero; i += 2) {
+    console.log(i);
+  }
+} else {
+  console.log("Por favor ingresa un número positivo.");
+}

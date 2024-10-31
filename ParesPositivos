@@ -1,4 +1,5 @@
 // Solicita al usuario que ingrese un número
+const prompt = require('prompt-sync')();
 const numero = parseInt(prompt("Ingresa un número positivo:"));
 
 // Verifica que el número sea positivo
